@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:spry="http://ns.adobe.com/spry">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="IT 422: Final Project - Chess Enthusiast" />
+  <meta name="keywords" content="CWU, IT, 422, Chess" />
+  <meta name="author" content="Adrian Juarez" />
+  <title>How To Play Chess</title>
+  <link rel="stylesheet" type="text/css" href="chess.css"/>
+ <script src="SpryAssets/xpath.js" type="text/javascript"></script>
+ <script src="SpryAssets/SpryData.js" type="text/javascript"></script>
+ <script type="text/javascript">
+var ds1 = new Spry.Data.XMLDataSet("chessPieces.xml", "dataroot/ChessPieces");
+ds1.setColumnType("Image", "html");
+ </script>
+</head>
+ <body>
+  <div id="container">
+  <div id="wrapper">
+   <div id="nav">
+    <h1>Chess Enthusiast</h1>
+    <ul>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="about.html">About</a></li>
+     <li class="bgColor"><a href="howToPlay.html">How to Play</a></li>
+     <li><a href="history.html">History</a></li>
+     <li><a href="contact.html">Contact</a></li>
+    </ul>
+   </div>
+    
+     <div id="content">
+	  <h2 class="mainHeading">How To Play Chess</h2>
+      <h2 class="subTitle">Equipment</h2>
+      <p class="bodyText">Chess is played on a square board that is spilt into eight equal-sized rows and columns. This creates sixty-four squares on the 
+       chessboard. The familiar checkerboard pattern should come to mind when one thinks of a chessboard.  
+      </p>
+      <p class="bodyText">There are thirty-two chess pieces in all. These thirty-two are split up into sixteen black and sixteen white pieces.
+       Sometimes a dark wood and a light wood are used instead of black and white. Each piece has limitations on how it can be moved.
+      </p>
+      <p class="howImage"><img src="Chess-Board.gif" title="chess-board" alt="Chessboard" /></p>
+      <h2 class="subTitle">Movement</h2>
+      <p class="bodyText">To begin playing, the person with the white or light colored pieces moves first. This first execution generally starts with
+       a pawn. Initially, the player has the decision of moving a pawn forward one square or two squares. Ultimately, every move made is at the expense
+       of protecting the king.
+      </p>
+      <div spry:region="ds1">
+        <table id="chessPieces" summary="Table showing different Chess pieces.">
+          <tr>
+            <th scope="col" spry:sort="Piece">Piece</th>
+            <th scope="col" spry:sort="Image">Image</th>
+            <th scope="col" spry:sort="Move">Move</th>
+            <th scope="col" spry:sort="Direction">Direction</th>
+            <th scope="col" spry:sort="Other">Additional Moves</th>
+          </tr>
+          <tr spry:repeat="ds1">
+            <td>{Piece}</td>
+            <td><img src="{Image}" /></td>
+            <td>{Move}</td>
+            <td>{Direction}</td>
+            <td>{Other}</td>
+          </tr>
+        </table>
+      </div>
+      <h2 class="subTitle">Strategy</h2>
+      <p class="bodyText">There are many different strategies involved in playing chess. We like to think of every move on the chessboard as a what-if 
+       scenario. With each move either building on or taking away from the previous move, it is very important to not rush the game. Take adequate time to make 
+       the correct move. 
+      </p>
+      <br />
+     </div>
+     </div>
+  </div>	
+  
+   <div id="footer">
+    <ul>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="about.html">About</a></li>
+     <li><a href="contact.html">Contact</a></li>
+    </ul>
+   </div>
+ </body>
+</html>

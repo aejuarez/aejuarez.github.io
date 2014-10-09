@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2012-03-04T09:06:50">
+<ChessClub>
+<ID>01</ID>
+<Event>Club Meetings</Event>
+<Description>Discuss events, tournaments, and coordination of teaching sessions. Anyone is welcome to attend.</Description>
+<Location>CWU SURC Room 135</Location>
+<Date>Monday's at 6pm</Date>
+</ChessClub>
+<ChessClub>
+<ID>02</ID>
+<Event>Beginning Chess Sessions</Event>
+<Description>Learn how to play Chess!</Description>
+<Location>SURC Ballroom</Location>
+<Date>Thursday's 6pm - 7pm</Date>
+</ChessClub>
+<ChessClub>
+<ID>03</ID>
+<Event>Advanced Chess Sessions</Event>
+<Description>Improve your skills!</Description>
+<Location>SURC Ballroom</Location>
+<Date>Thursday's 7pm - 8pm</Date>
+</ChessClub>
+<ChessClub>
+<ID>04</ID>
+<Event>CWU Chess Tournaments</Event>
+<Description>Tournament competition based on USCF rules.</Description>
+<Location>Attend Club Meetings for information.</Location>
+<Date>TBA</Date>
+</ChessClub>
+</dataroot>
+

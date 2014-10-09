@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:spry="http://ns.adobe.com/spry">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="IT 422: Final Project - Chess Enthusiast" />
+  <meta name="keywords" content="CWU, IT, 422, Chess" />
+  <meta name="author" content="Adrian Juarez" />
+  <title>About Chess Enthusiast</title>
+  <link rel="stylesheet" type="text/css" href="chess.css"/>
+ <script src="SpryAssets/xpath.js" type="text/javascript"></script>
+ <script src="SpryAssets/SpryData.js" type="text/javascript"></script>
+ <script type="text/javascript">
+var ds1 = new Spry.Data.XMLDataSet("chessClub.xml", "dataroot/ChessClub");
+ </script>
+</head>
+ <body>
+  <div id="container">
+   <div id="wrapper">
+   <div id="nav">
+    <h1>Chess Enthusiast</h1>
+    <ul>
+     <li><a href="index.html">Home</a></li>
+     <li class="bgColor"><a href="about.html">About</a></li>
+     <li><a href="howToPlay.html">How to Play</a></li>
+     <li><a href="history.html">History</a></li>
+     <li><a href="contact.html">Contact</a></li>
+    </ul>
+   </div>
+   
+   <div id="content">
+	<h2 class="mainHeading">About</h2>
+    <p class="bodyText">Chess Enthusiast is a product of the Central Washington University Chess Club in Ellensburg, Washington. It was founded by 
+     Loren I. P. Sum in the fall of 2011. Chess Enthusiast strives to be your premier internet destination for Chess.
+    </p>
+    <h2 class="subTitle">Club Information</h2>
+    <p class="bodyText">The CWU Chess Club is at the core of Chess Enthusiast. Come join us for some fun!</p>
+    <div spry:region="ds1">
+      <table id="chessClub" summary="CWU Club Meetings and Events">
+        <tr>
+          <th scope="col" spry:sort="Event">Event</th>
+          <th scope="col" spry:sort="Description">Description</th>
+          <th scope="col" spry:sort="Location">Location</th>
+          <th scope="col" spry:sort="Date">Date</th>
+        </tr>
+        <tr spry:repeat="ds1">
+          <td>{Event}</td>
+          <td>{Description}</td>
+          <td>{Location}</td>
+          <td>{Date}</td>
+        </tr>
+      </table>
+      <br />
+    </div>
+   </div>
+   </div>
+  </div>	
+  
+   <div id="footer">
+    <ul>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="about.html">About</a></li>
+     <li><a href="contact.html">Contact</a></li>
+    </ul>
+   </div>
+ </body>
+</html>
