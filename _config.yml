@@ -1,15 +1,10 @@
-# Site settings
-title: Adrian Juarez
-email: aejuarez@outlook.com
-description: > # this means to ignore newlines until "baseurl:"
-  This site will serve as a hub for various IT and Web projects 
-  that I have completed as an undergraduate at Central Washington 
-  University, and projects I am currently working on. 
-  I also plan to have a blog to coincide with this site.
-  Thanks for stopping by!
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://aejuarez.com" # the base hostname & protocol for your site
-github_username: aejuarez
-
 # Build settings
+
 markdown: kramdown
+permalink: pretty
+
+port: 3000
+
+sass:
+  sass_dir: assets/css
+  style: :nested
