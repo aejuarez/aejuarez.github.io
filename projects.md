@@ -1,0 +1,15 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+---
+
+<h4>Chess Enthusiast: IT 422 Final Project</h4>
+
+<p>Created an informational website using basic HTML and CSS 
+for a fictitious chess club. <a href="http://www.cwu.edu/~cwahle">Mr. Chuck Wahle</a> graded this as a 
+final project for his Website Construction course in the spring of 2013.</p>
+
+<p>Check out the Chess Enthusiast <a href="../Chess-Enthusiast/index.html">homepage</a>.</p>
+
+<p>I also created a repository for this project on my <a href="https://github.com/aejuarez/Chess-Enthusiast">GitHub Account</a>.</p>
