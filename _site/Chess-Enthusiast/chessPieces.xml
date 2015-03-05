@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2012-03-05T11:17:27">
+<ChessPieces>
+<ID>01</ID>
+<Piece>Pawn</Piece>
+<Image>images/ChessPieces/StauntonPawn2.jpg</Image>
+<Move>One square.</Move>
+<Direction>Forward. Diagonal if capturing opposing pieces.</Direction>
+<Other>On its first move, a Pawn can move two squares forward. After this it's limited to one square forward.</Other>
+</ChessPieces>
+<ChessPieces>
+<ID>02</ID>
+<Piece>Knight</Piece>
+<Image>images/ChessPieces/StauntonKnight2.jpg</Image>
+<Move>Four squares.</Move>
+<Direction>Three forward or backward and one left or right.</Direction>
+<Other>The only piece that can jump over other pieces.</Other>
+</ChessPieces>
+<ChessPieces>
+<ID>03</ID>
+<Piece>Bishop</Piece>
+<Image>images/ChessPieces/StauntonBishop2.jpg</Image>
+<Move>Any number of consecutive squares.</Move>
+<Direction>Diagonal.</Direction>
+<Other></Other>
+</ChessPieces>
+<ChessPieces>
+<ID>04</ID>
+<Piece>Rook</Piece>
+<Image>images/ChessPieces/StauntonRook2.jpg</Image>
+<Move>Any number of consecutive squares.</Move>
+<Direction>Forward, backward, left, and right.</Direction>
+<Other></Other>
+</ChessPieces>
+<ChessPieces>
+<ID>05</ID>
+<Piece>King</Piece>
+<Image>images/ChessPieces/StauntonKing2.jpg</Image>
+<Move>One Square.</Move>
+<Direction>Forward, backward, left, and right.</Direction>
+<Other></Other>
+</ChessPieces>
+<ChessPieces>
+<ID>06</ID>
+<Piece>Queen</Piece>
+<Image>images/ChessPieces/StauntonQueen2.jpg</Image>
+<Move>Any number of consecutive squares.</Move>
+<Direction>Forward, backward, left, right, and diagonal.</Direction>
+<Other></Other>
+</ChessPieces>
+</dataroot>
+
