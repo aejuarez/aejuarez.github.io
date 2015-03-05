@@ -1,16 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Adrian Juarez</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="main.css" />
-</head>
-<body>
-<h1>Hi. I'm Adrian Juarez. Welcome to my web site!</h1>
-<h3>aejuarez.com is currently undergoing development. Thanks for stopping by!</h3>
+---
+layout: default
+---
 
-<script src="/assets/js/jquery-2.1.1.min.js"></script>
-<script src="/assets/js/functions.js" type="text/javascript"></script>
-</body>
-</html>
+<div class="home">
+<!-- <h1><a href="{{ site.url }}">dfjdf</a></h1>
+ -->  <div class="posts">
+    {% for post in paginator.posts %}
+      <div class="post">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+          <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+          <h3 class="h2 post-title">{{ post.title }}</h3>
+          <p class="post-summary">{{ post.summary }}</p>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+
+  {% include pagination.html %}
+</div>
