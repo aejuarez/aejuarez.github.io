@@ -527,11 +527,11 @@ body {
   background-color: #fff; }
 
 a {
-  color: #0096cc;
+  color: #56AD7A;
   text-decoration: none; }
 
 a:hover {
-  color: #007199; }
+  color: #458A62; }
 
 .button {
   border-radius: .25rem;
@@ -649,17 +649,17 @@ body {
   width: 100%; }
 
 .site-header a {
-  color: #333;
+  color: #56AD7A;
   font-weight: 300; }
 
 .site-header nav a {
   font-size: 1rem;
-  color: #666; }
+  color: #56AD7A; }
 
 .site-header nav a:hover {
-  color: #444;
+  color: #458A62;
   opacity: 1;
-  border-bottom: 2px solid #444; }
+  border-bottom: 2px solid #458A62; }
 
 .site-nav a + a {
   margin-left: 1em; }
@@ -739,8 +739,8 @@ table {
 .pagination,
 .button {
   font-size: 1rem;
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
-  font-weight: 300;
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 400;
   text-align: center; }
 
 .pagination a, .pagination .disabled {
@@ -792,8 +792,8 @@ table {
   background-color: #999; }
 
 form {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
-  font-weight: 300;
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 400;
   font-size: 1rem; }
 
 textarea.input {
@@ -849,8 +849,8 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: "Lato", 'Helvetica Neue', Helvetica, sans-serif;
-  font-weight: 900;
+  font-family: "Raleway", 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 700;
   line-height: 1.2;
   margin: 1em 0 0.5em; }
 
@@ -1003,8 +1003,8 @@ footer,
 footer .wrap {
   color: #7a7a7a;
   background-color: #fafafa;
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
-  font-weight: 300;
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 400;
   clear: both; }
 
 footer:after {
