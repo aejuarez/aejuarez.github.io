@@ -547,6 +547,10 @@ a:hover {
   color: #fff;
   background-color: #0096cc; }
 
+.button-green {
+  color: #fff;
+  background-color: #56AD7A; }
+
 .button-blue:hover {
   color: #fff;
   background-color: #004b66; }
@@ -647,6 +651,15 @@ body {
 
 .gist .lines {
   width: 100%; }
+
+a.fa.fa-github {
+  color: #333; }
+
+a.fa.fa-linkedin {
+  color: #333; }
+
+a.fa.fa-rss {
+  color: #333; }
 
 .site-header a {
   color: #56AD7A;
@@ -758,7 +771,7 @@ table {
 
 .pagination a:hover, .pagination a:focus {
   background: white;
-  color: #477dca; }
+  color: #458A62; }
 
 .pagination a:active {
   background: #f7f7f7; }

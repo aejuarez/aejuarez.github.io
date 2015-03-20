@@ -675,6 +675,7 @@ strong, .bold {
 body {
   color: #333333;
   background-color: #fff;
+  //background-image: url(/images/old_mathematics.png);
 }
 
 a {
@@ -700,6 +701,12 @@ a:hover {
   color: #fff;
   background-color: #0096cc;
 }
+
+.button-green {
+  color: #fff;
+  background-color: #56AD7A;
+}
+
 .button-blue:hover {
   color: #fff;
   background-color: #004b66;
