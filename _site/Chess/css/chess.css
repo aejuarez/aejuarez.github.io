@@ -212,8 +212,7 @@ body:before {
 	font-weight: normal;
     font-style: normal;
 	}
-}
-
+	
 @font-face {
   	font-family: Sheep Sans;
 	src: url('../fonts/sheep_sans-webfont.eot');
