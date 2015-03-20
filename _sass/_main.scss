@@ -503,14 +503,13 @@ footer {
 
   li {
     list-style-type: none;
-    display: inline;
+    display: inline-block;
     padding: 0px 5px 0px 5px;
     font-size: 14px;
   }
 
-  p {
-    font-size: 14px;
-    padding-left: 40px;
+  span {
+    font-size: 10px;
   }
 }
 

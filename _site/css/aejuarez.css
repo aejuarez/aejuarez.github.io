@@ -1008,12 +1008,11 @@ footer {
   border-top: thin solid #f3f3f3; }
   footer li {
     list-style-type: none;
-    display: inline;
+    display: inline-block;
     padding: 0px 5px 0px 5px;
     font-size: 14px; }
-  footer p {
-    font-size: 14px;
-    padding-left: 40px; }
+  footer span {
+    font-size: 10px; }
 
 footer,
 footer .wrap {
