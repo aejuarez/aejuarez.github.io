@@ -2,7 +2,7 @@
 layout:     post
 title:      Interview the Interviewer
 date:       2015-03-23
-summary:    Thoughts on energy levels, expectations, and body language.
+summary:    Thoughts on energy level, expectations, and body language.
 categories: 
 ---
 
