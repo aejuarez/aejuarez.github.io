@@ -20,7 +20,7 @@ But I didn't get asked any of these questions. Our interactions were short and, 
 
 The cliché saying: expect the unexpected, shouldn't go overlooked. I went into the interview expecting to be grilled with questions when in reality I was asked very little. This threw me off. I was most concerned about being well qualified for the job when I should have been focused on showing the interviewer the curious, detailed-oriented person that I am. No matter how qualified a job candidate may be, what is most important for the interviewee is to give the interviewer a sense of his/her personality. The interviewer wants to know how the candidate adds or creates value, and if the candidate is likeable, agreeable, and the correct fit for the work environment.
 
-###My body Language didn't show a high level of interest
+###My body language didn't show a high level of interest
 
 My body language was a little too stiff, a little too much on the reserved side of things. Way back in the spring of 2013, I was introduced to the power of body language by [Dr. Bob Trumpy](http://www.cwu.edu/it-management/robert-trumpy), professor at CWU. During a business communication course, Dr. Trumpy showed a TED Talk presented by [Amy Cuddy](http://www.hbs.edu/faculty/Pages/profile.aspx?facId=491042), social psychologist and professor at Harvard. 
 
