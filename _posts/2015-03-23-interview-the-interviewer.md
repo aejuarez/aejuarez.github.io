@@ -2,7 +2,7 @@
 layout:     post
 title:      Interview the Interviewer
 date:       2015-03-23
-summary:    The energy level of others tends to either feed or sap one's own energy, enthusiasm, or authenticity.
+summary:    Thoughts on energy levels, expectations, and body language.
 categories: 
 ---
 
