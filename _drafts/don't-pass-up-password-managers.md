@@ -28,4 +28,3 @@ Take a fingerprint reader like Apple's TouchID; it's great for your phone, but p
 ###LastPass
 
 ###KeePass
-
