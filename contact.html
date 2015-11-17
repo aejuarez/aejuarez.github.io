@@ -6,8 +6,8 @@ permalink: /contact/
 
 <div class="py2">
   <form id="contactform" method="POST" class="form-stacked form-light">
-    <input type="text" name="email" class="input mobile-block" placeholder="Email Address">
-    <textarea type="text" name="content" class="input mobile-block" rows="5" placeholder="What would you like to say?"></textarea>
+    <input type="text" name="email" class="form control" required placeholder="Email Address">
+    <textarea type="text" name="content" class="form-control" required rows="5" placeholder="What would you like to say?"></textarea>
     <input type ="text" name="_gotcha" style="display:none" />
     <input type="hidden" name="_next" value="//aejuarez.com/thanks" />
     <input type="submit" class="button button-green button-big mobile-block" value="Send">
@@ -17,3 +17,5 @@ permalink: /contact/
     contactform.setAttribute('action', '//formspree.io/' + 'aejuarez' + '@' + 'outlook' + '.' + 'com');
   </script>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
