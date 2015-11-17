@@ -4,7 +4,7 @@
     $contactForm.validate();
     $contactForm.submit(function(e) {
         if ($(this).valid()) {
-        e.preventDefault();
+        	e.preventDefault();
         $.ajax({
             url: '//formspree.io/myemail@mail.com',
             method: 'POST',
