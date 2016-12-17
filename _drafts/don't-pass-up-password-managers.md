@@ -10,22 +10,25 @@ categories:
 
 You use the same password for everything, right? Or, maybe you let Google Chrome remember all your passwords. If this at all describes your password habits, you're vulnerable for some serious violations in privacy and security. 
 
-Here are two reasons why you might be a redneck using bad passwords:
 
-### 1. Passwords are hard to remember
+### Passwords have a few problems
 
-Accounts containing sensitive information—Facebook, Dropbox, Amazon, Google, etc.—are difficult to manage when account security and integrity come into play. This is because passwords are inherently unfriendly to the user. Combinations of capital letters, lowercase letters, numerals, and special characters are usually required. Hell, sometimes your password expires three months after you’ve finally memorized it! 
+#### 1. Passwords are hard to remember
+
+Accounts containing sensitive information—Facebook, Dropbox, Amazon, Google, etc.—are difficult to manage when account security and integrity come into play. This is because passwords are inherently unfriendly to the user. 
+
+Combinations of capital letters, lowercase letters, numbers, and special characters are usually required. Hell, sometimes your password expires three months after you’ve finally memorized it! 
+
+#### 2. Passwords are basically obsolete anyway
+
+**Wrong!** Flying cars are [real](http://www.terrafugia.com). But you can't get one just yet. Similarly, passwords will someday be completely replaced by the iris scanner or some other new-fangled-science-fiction-wizardry. Take a fingerprint reader like Apple's TouchID; it's great for your phone, but passwords are still required for pretty much everything on a desktop computer.
 
 This explains why so many people use the same passwords across all of their accounts. But fear not my friends! Because there are some smart folks out there making lives easier (assuming your life in modern society isn't already easy enough). 
 
-Those aforementioned smart folks make standalone apps called password managers. Apps that'll work on both your phone and your computer. There are many different password managers available right now. I recommend [KeePass](http://www.keepass.info) or [LastPass](http://www.lastpass.com) (Stay tuned for more info on these).
+### <span class="green">Okay, so what's a Password Manager do?</span>
 
-### 2. Passwords are basically obsolete anyway
+Those smart folks are making standalone apps called password managers. These apps will work on both your phone and your computer. There are many different password managers available right now. I recommend  [1Password](https://www.1password.com) or [KeePass](http://keepass.info).
 
-**Wrong!** Flying cars are [real](http://www.terrafugia.com). But you can't get one just yet. Similarly, passwords will someday be completely replaced by the iris scanner or some other new-fangled-science-fiction-wizardry. 
-
-Take a fingerprint reader like Apple's TouchID; it's great for your phone, but passwords are still required for pretty much everything on a desktop computer. And you can't rely on using just your face to login to your favorite Russian mail-order bride service. Not today, anyway. So you best get to learnin' about password managers!
-
-### LastPass
+### 1Password
 
 ### KeePass
