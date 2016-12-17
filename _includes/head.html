@@ -1,10 +1,4 @@
 <head>
-        <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,900,900i|Raleway:400,700|Roboto+Slab:100,300,400,700" rel="stylesheet">
-    {% if site.show_social_icons %}
-      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    {% endif %}
-    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
@@ -17,6 +11,12 @@
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/aejuarez.css" | prepend: site.baseurl }}" type="text/css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,900,900i|Raleway:400,700|Roboto+Slab:100,300,400,700" rel="stylesheet">
+    {% if site.show_social_icons %}
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    {% endif %}
 
     <!-- Open Graph -->
     <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
@@ -31,7 +31,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
     <script src="/js/validate-contact-form.js"></script>
-
 
     <!-- Icons -->
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
